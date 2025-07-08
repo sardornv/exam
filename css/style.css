@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*:focus{
+    outline: 2px solid #2BD0D0;
+    outline-offset: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #9E9AA8;
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1460px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #2BD0D0;
+    border-radius: 28px;
+    text-decoration: none;
+    color: white;
+    padding: 13.3333px 32px;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
+
+.button:active{
+    opacity:50%;
+}
+.button:hover{
+    opacity: 80%;
+}
+
+/* HEADER  */
+.header{
+    background-color:white;
+    margin-top: 48px;
+    margin-bottom: 78px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.header-login{
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
+
+.header-links{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px
+}
+
+.header-link{
+    font-family: "Poppins","sans-serif";
+    font-size: 16px;
+    font-style: "Bold";
+    position: relative;
+    left: -205px;
+}
+
+.header-link:hover{
+   color: black;
+}
+
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login:hover{
+    color: #2BD0D0;
+}
+
+.login{
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+}
+
+/* HERO  */
+.hero{
+    background-color: white;
+    margin-bottom: 222px;
+    padding-left: 165px;
+}
+
+.hero-text{
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    font-style: medium;
+    letter-spacing: 0.15;
+    color: #9E9AA8;
+    margin-top: 5px;
+    margin-bottom: 38px;
+}
+
+.title{
+    font-family: "Poppins",sans-serif;
+    font-size: 70px;
+    letter-spacing: -2px;
+    font-style: bold;
+}
+
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-content{
+    max-width: 563px;
+    width: 100%;
+}
+
+/* STATISTICS  */
+.statistics{
+    background-color: #EFF1F7;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.statistics-title-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.statistics-title{
+    margin-top: 204px;
+    font-family: "Poppins",sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-style: bold;
+}
+
+.statistics-text{
+    font-family: "Poppins",sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.12px;
+    font-style: medium;
+    color: #9E9AA8;
+}
+.statistics-texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.statistics-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3A3054;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+}
+
+.icon1{
+    position: relative;
+    left: 30px;
+    top: -40px;
+}
+
+.icon2{
+    position: relative;
+    left: 30px;
+    top: -40px;
+}
+
+.icon3{
+    position: relative;
+    left: 30px;
+    top: -40px;
+}
+
+.boxes-text{
+    font-family: "Poppins",sans-serif;
+    font-size: 15px;
+    font-style: medium;
+    color: #9E9AA8;
+}
+
+.boxes-title{
+    font-family: "Poppins",sans-serif;
+    font-size: 22px;
+    font-style: bold;
+    margin-top: 33px;
+    margin-bottom: 12px;
+}
+
+.boxes{
+    width: 350px;
+    height: 311px;
+    border: 1px solid #EFF1F7;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 7px;
+    margin-bottom: 120px;
+}
+
+.box1{
+    position: relative;
+    left: 20px;
+}
+
+.box2{
+   position: relative;
+   top: 50px;
+}
+
+.box3{
+    position: relative;
+    top: 100px;
+    right: 20px;
+}
+
+.statistics-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+    padding-bottom: 120px;
+}
+
+.statistics-line{
+    position: relative;
+    top: 180px;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8px;
+    background-color: #2BD0D0;
+    border: 1px solid #2BD0D0;
+    border-radius: 3px;
+    width: 800px;
+}
+
+
+/* CTA  */
+.cta{
+    background-color: #4b3f6b;
+}
+
+.cta-title{
+    padding-top: 57px;
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-style: bold;
+}
+
+.cta-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cta-button{
+    margin-top: 32px;
+    margin-bottom: 57px;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+
+/* FOOTER  */
+.footer{
+    background-color: #232127;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    gap: 106px;
+}
+
+.footer-link:hover{
+    color: #2BD0D0;
+}
+
+.footer-features{
+    color: white;
+}
+
+.footer-features:hover{
+    color: #2BD0D0;
+}
+
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer a:hover{
+    color: #2BD0D0;
+}
+
+.footer-links1{
+    position: relative;
+    left: -95px;
+}
+
+.footer-links2{
+    position: relative;
+    left: -45px;
+}
+
+.footer-links3{
+    position: relative;
+    right: -45px;
+    top: 10px;
+}
