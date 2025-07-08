@@ -58,6 +58,11 @@ a{
     padding-right: 165px;
 }
 
+.header-logo{
+    display: flex;
+    gap: 10px;
+}
+
 .header-login{
     display: flex;
     align-items: center;
