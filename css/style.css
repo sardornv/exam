@@ -54,8 +54,6 @@ a{
     background-color:white;
     margin-top: 48px;
     margin-bottom: 78px;
-    padding-left: 165px;
-    padding-right: 165px;
 }
 
 .header-logo{
@@ -96,7 +94,7 @@ a{
 }
 
 .login:hover{
-    color: #2BD0D0;
+    color: black;
 }
 
 .login{
@@ -108,7 +106,6 @@ a{
 .hero{
     background-color: white;
     margin-bottom: 222px;
-    padding-left: 165px;
 }
 
 .hero-text{
@@ -142,8 +139,6 @@ a{
 /* STATISTICS  */
 .statistics{
     background-color: #EFF1F7;
-    padding-left: 165px;
-    padding-right: 165px;
 }
 
 .statistics-title-text{
@@ -219,7 +214,7 @@ a{
 }
 
 .boxes{
-    width: 350px;
+    width: 400px;
     height: 311px;
     border: 1px solid #EFF1F7;
     position: relative;
@@ -244,7 +239,7 @@ a{
 .box3{
     position: relative;
     top: 100px;
-    right: 20px;
+    right: 30px;
 }
 
 .statistics-box{
@@ -311,8 +306,6 @@ a{
 /* FOOTER  */
 .footer{
     background-color: #232127;
-    padding-left: 165px;
-    padding-right: 165px;
     padding-top: 72px;
     padding-bottom: 72px;
 }
