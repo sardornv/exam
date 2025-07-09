@@ -9,7 +9,7 @@
 </head>
 <body>
     <!-- HEADER  -->
-   <header class="header">
+   <header  class="header">
     <div class="container header-container">
     <div class="navbar-wrapper">
        <img class="header-logo" src="./images/logo-black.svg" alt="shortly">
@@ -30,6 +30,23 @@
         <a class="login" href="#">Login</a>
         <a class="button" href="#">Sign Up</a>
        </div>
+       <label class="burger" for="burger">
+        <svg class="header-burger" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+    </label>
+    <input class="checkbox" id="burger" type="checkbox">
+    <div class="burger-links-wrapper">
+        <ul class="burger-link">
+            <li>
+                <a class="burger-links" href="#">Features</a>
+            </li>
+            <li>
+                <a class="burger-links" href="#">Pricing</a>
+            </li>
+            <li>
+                <a class="burger-links" href="#">Resources</a>
+            </li>
+        </ul>
+    </div>
     </div>
     </div>
    </header>
@@ -41,14 +58,16 @@
                <div class="hero-content">
                 <h1 class="title">More than just  shorter links</h1>
                 <p class="hero-text">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
-                <a class="button" href="#">Get Started</a>
+                <span class="hero-button">
+                    <a class="button" href="#">Get Started</a>
+                </span>
                </div>
-               <img src="./images/hero-img.png" alt="hero-img" width="658px" height="482px">
+               <img class="hero-img" src="./images/hero-img.png" alt="hero-img" width="658px" height="482px">
             </div>
          </section>
          <!-- STATISTICS  -->
-          <section class="statistics">
-            <div class="container">
+          <section  class="statistics">
+            <div class="container sta-container">
                 <div class="statistics-title-text">
                  <h2 class="statistics-title">Advanced Statistics</h2>
                 <p class="statistics-text">Track how your links are performing across the web with <br> <span class="statistics-texts">our advanced statistics dashboard.</span></p>
@@ -58,21 +77,21 @@
                     <ul class="statistics-box">
                         <div class="boxes box1">
                             <li>
-                                <span class="statistics-icons icon1"> <img src="./images/chart-img.svg" alt="chart" width="40px" height="40px"></span>
+                                <span class="statistics-icons icon1"> <img class="sta-icons" src="./images/chart-img.svg" alt="chart" width="40px" height="40px"></span>
                                 <h3 class="boxes-title boxes-title1">Brand Recognition</h3>
                                 <p class="boxes-text boxes-text1">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
                             </li>
                         </div>
                         <div class="boxes box2">
                             <li>
-                                <span class="statistics-icons icon2"><img src="./images/timer-img.svg" alt="timer"></span>
+                                <span class="statistics-icons icon2"><img class="sta-icons" src="./images/timer-img.svg" alt="timer"></span>
                                 <h3 class="boxes-title">Detailed Records</h3>
                                 <p class="boxes-text">Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
                             </li>
                         </div>
                         <div class="boxes box3">
                             <li class="statistics-boxes"></li>
-                            <span class="statistics-icons icon3"><img src="./images/pens-img.svg" alt="pens"></span>
+                            <span class="statistics-icons icon3"><img class="sta-icons" src="./images/pens-img.svg" alt="pens"></span>
                             <h3 class="boxes-title">Fully Customizable</h3>
                             <p class="boxes-text">Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
                         </li>
@@ -82,9 +101,10 @@
             </div>
           </section>
           <!-- CTA  -->
-           <section class="cta">
+           <section  class="cta">
             <div class="container">
                 <img class="cta-background" src="./images/cta-background.svg" alt="fon">
+                <img class="cta-short-background" src="./images/cta-short-background.svg" alt="">
                <div class="cta-box">
                 <h2 class="cta-title">Boost your links today</h2>
                 <a class="button cta-button" href="#">Get started</a>
@@ -107,24 +127,9 @@
                     <li>
                         <a class="footer-features" href="#">Company</a>
                     </li>
+                    <div class="footer-links"></div>
                 </ul>
-                <ul class="footer-social">
-                    <li>
-                        <a href="#"><img src="./images/facebook-img.svg" alt="facebook" width="24" height="24"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/twitter-img.svg" alt="twitter"  width="24px" height="24px"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/path-img.svg" alt="path"  width="24px" height="24px"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="./images/instagram-img.svg" alt="instagram"  width="24px" height="24px"></a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <ul class="footer-links1">
+                <ul class="footer-link-wrapper">
                     <li>
                         <a href="#">Link Shortening</a>
                     </li>
@@ -135,7 +140,7 @@
                         <a href="#">Analytics</a>
                     </li>
                 </ul>
-                <ul class="footer-links2">
+                <ul class="footer-link-wrapper">
                     <li>
                         <a href="#">Blog</a>
                     </li>
@@ -146,7 +151,7 @@
                         <a href="#">Support</a>
                     </li>
                 </ul>
-                <ul class="footer-links3">
+                <ul class="footer-link-wrapper">
                     <li>
                         <a href="#">About</a>
                     </li>
@@ -158,6 +163,21 @@
                     </li>
                     <li>
                         <a href="#">Contacts</a>
+                    </li>
+                </ul>
+               </div>
+               <ul class="footer-social">
+                    <li>
+                        <a href="#"><img src="./images/facebook-img.svg" alt="facebook" width="24" height="24"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/twitter-img.svg" alt="twitter"  width="24px" height="24px"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/path-img.svg" alt="path"  width="24px" height="24px"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/instagram-img.svg" alt="instagram"  width="24px" height="24px"></a>
                     </li>
                 </ul>
             </div>
